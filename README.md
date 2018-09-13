@@ -1,3 +1,5 @@
+# Group of stochastic matrices (a very brief introduction)
+
 Given a group of stochastic matrices G with real entries, i.e.,
 a subgroup of the general linear group GL_n (group that all 
 nxn matrices are invertible) whose all rows sum to 1, 
@@ -7,7 +9,7 @@ semi-simple or at least it has a subalgebra that is semisimple.
 
 The following scripts are going to check such properties.
 
-1) Script: check_semi_simple.m
+## First Script: check_semi_simple.m
 
 *Description*: Given the group G, described as above, it's easy to check
 that it has a tangent space T_1(G) defined by all matrices nxn 
